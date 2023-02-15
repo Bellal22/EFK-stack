@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: elasticsearch-configmap
+  namespace: logging
+data:
+  CLOUD_ELASTICSEARCH_ID: https://my-deployment-9c60b7.kb.eu-central-1.aws.cloud.es.io/
+  CLOUD_ELASTICSEARCH_HOST: My_deployment:ZXUtY2VudHJhbC0xLmF3cy5jbG91ZC5lcy5pbyRkZTAzOTgyNmNkNTQ0NjI4OGE1MzFhNzFmOGFkOWQ0YSRjZjc0ZTlmNTdmMmQ0MTRhOGIxZTEyMjkyNjVmNjkyYg==
+  CLOUD_ELASTICSEARCH_PORT: '9243'
